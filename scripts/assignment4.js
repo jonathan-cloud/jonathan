@@ -1,3 +1,7 @@
+
+window.onload = function (){
+  drawmyTable(50,50);
+}
 let draw=false; 
     let color='black'; //default color 
     let rows;

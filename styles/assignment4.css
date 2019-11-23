@@ -1,0 +1,53 @@
+.canvas {
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  display:inline-block;
+  margin: 0 20px;
+}
+
+.side-menu {
+  width: 100px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: paleturquoise;
+  float: left;
+}
+
+button{
+  width: inherit;
+  margin-bottom: 10px;
+  height: 20px;
+}
+#black {
+  background-color: black;
+}
+
+#red {
+  background-color: red;
+
+}
+
+#yellow {
+  background-color: yellow;
+
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+td {
+  width: 10px;
+  /*Change it As You want */
+  height: 10px;
+  background: #ffffff;
+  border: 0px;
+  cursor: crosshair;
+  
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>assignment4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assignment4a/styles/assignment4.css">
+  <script src="https://kit.fontawesome.com/7a7a5c4387.js" crossorigin="anonymous"></script>
+  
+
+  
+</head>
+
+<body OnLoad="drawmyTable(50,50);">
+  <div class="container" id="container">
+    <div class='side-menu'>
+      <h3>Pick a Color</h3>
+      <button id='black' onclick='chooseColor(this);'></button>
+      <button id='red' onclick='chooseColor(this);'></button>
+      <button id='yellow' onclick='chooseColor(this);'></button>
+      <button id='blue' onclick='chooseColor(this);'></button>
+      <button id='green' onclick='chooseColor(this);'></button>
+      <button id='white' onclick='chooseColor(this);'><i class="fas fa-eraser"></i>
+      </button>
+      <button id='html' onclick='drawmyTable(50,50);'>New</button>
+      <label>Big Brush? <input type='checkbox' id='brushSize' value='big'></label>
+    </div>
+    <div class='canvas' id='canvas'>
+    </div>
+  </div>
+
+
+  <script src="../assignment4a/scripts/assignment4.js"></script>
+  
+</body>
+
+</html>
